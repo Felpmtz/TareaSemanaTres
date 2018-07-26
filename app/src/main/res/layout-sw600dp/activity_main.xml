@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/alien2"
+    android:background="@drawable/alien"
     tools:context=".MainActivity">
 
     <android.support.constraint.Guideline
@@ -14,20 +14,23 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 
-    <android.support.constraint.Barrier
-        android:id="@+id/barrier2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="197dp"
         android:layout_height="99dp"
         android:text="@string/boton"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="414dp"
-        tools:layout_editor_absoluteY="89dp" />
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="233dp" />
 
 
 </android.support.constraint.ConstraintLayout>
